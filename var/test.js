@@ -26,3 +26,4 @@ console.log(myFunction);
 console.log(typeof myobj);
 console.log(typeof heros);
 console.log(typeof myFunction);
+console.log(typeof anotherId);
