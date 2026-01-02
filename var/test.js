@@ -11,12 +11,18 @@ console.log(Id===anotherId);
 const bigintNum=23456789321n
 console.log(bigintNum);
 // Non Primitive datatype
-const city=["Pakistan","Lahore","MDk" , "Multan"];
+const heros=["Fiza", "sadia","Mahnoor"];
 let myobj={
     name:"Fizza",
     age:23,
-    Email:"hadiabdual786@gmail.com"
+    EmailId:"hadiabdualhadi@gmail.com",
+    }
+    console.log(heros);
+    console.log(myobj);
+const myFunction= function (){ 
+    console.log("hello world");
 }
-const myFunction=function(){
- console.log("Hello World!");
-}
+console.log(myFunction);
+console.log(typeof myobj);
+console.log(typeof heros);
+console.log(typeof myFunction);
