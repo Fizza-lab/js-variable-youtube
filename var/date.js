@@ -63,6 +63,10 @@ console.log(anotherDate.getMonth()+12);
 // Timestamp jb ham ne exact value dekhni ho.
 let myTimestamp= Date.now()
 console.log(myTimestamp);
-console.log(Month.floor(Date.now()/1000)); //agr hmere decimal me value ati h pr agr hamy wo value choti value me chye to pr ham ye use krty.
+console.log(Math.floor(Date.now()/1000)); //agr hmere decimal me value ati h pr agr hamy wo value choti value me chye to pr ham ye use krty.
 let myCreatedDate= new Date(2025,0,10)
 console.log(myCreatedDate.getTime());
+console.log(myCreatedDate.getDay());
+console.log(myCreatedDate.getMonth()+1);
+console.log(typeof new Date);
+console.log(myCreatedDate.getFullYear());
