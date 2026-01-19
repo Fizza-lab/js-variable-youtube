@@ -1,4 +1,4 @@
-// Primitive datatype
+ // Primitive datatype
 let numvalue=34
  let nameemploye="Fizza"
  let isloggedIn=false 
