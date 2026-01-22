@@ -1,4 +1,4 @@
-// singleton // construct sy hmesha singletone bnta h .
+// singleton // construct sy hmesha singletone bnta h .construct se singletone bnta h literals se singletone ni bnta h.
 // agr ham object ko literial ki trh bnty han to singletone ni bnta hai.
 // object ko 2 trha se define krty hn construct triky se or literals triky se
 // ham jb bi construct triky se bnty hn to wo na singletone me bnty han.
@@ -7,6 +7,7 @@ Object.create // to ye construct wala trika hai.
 // object literals
 const jsUser = {
  name: "fizza",
+ "full name": "fizaa Sahzadi",
  age:  24,
 email: "fizza786@gmail.com",
 location: "MDK",
@@ -15,3 +16,8 @@ lastlogindays: ["Monday","Tuesday","wednesday","Thursday","Friday","Saturday", "
 
 }   // ye lliterals method hai ye kribrackrt h ye object hai.
 
+//console.log(jsUser);
+jsUser.email;
+//console.log(jsUser.email);
+//console.log(jsUser["email"]);
+//console.log(jsUser["full name"]);
