@@ -12,10 +12,19 @@
 // // console.log(a);
 // // console.log(b);
 //  console.log(c);
-let a = 10
-const b = 20
-var c= 30
-console.log(a);
-console.log(b);
-console.log(c);
+// let a = 10
+// const b = 20
+// var c= 30
+// console.log(a);
+// console.log(b);
+// console.log(c);
 {}// ais ko ham scope bolty hn or ye scope jo h wo na ham function me ye use krty h if else me bi use krty hain.
+var c= 300
+if (true){
+ let a = 10
+ const b= 20
+ var c= 30
+}
+//console.log(a);
+//console.log(b);
+ console.log(c);
