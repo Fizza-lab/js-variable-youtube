@@ -47,3 +47,17 @@
 // let max=20
 // let min=10
 // console.log( Math.floor(Math.random()*(max-min+1))+min);
+let score = 400;
+let balance = new Number(300);
+// console.log(score);
+// console.log(balance);
+console.log(balance.toString().length);
+console.log(balance.toFixed(1));
+const anotherNumber = 124.899;
+console.log(anotherNumber.toPrecision(4));
+let hundreds = 10000000;
+console.log(hundreds.toLocaleString('en-PK'));
+let num = 456.789;
+console.log(num.toFixed(2));
+let num1 = 3.14159265;
+console.log(num1.toPrecision(5));
